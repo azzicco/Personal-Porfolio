@@ -296,3 +296,41 @@ body {
   opacity: 0.5;
   cursor: not-allowed;
 }
+.index-footer {
+  padding: 46px 0 48px;
+  height: 196px;
+  text-align: center;
+  background: #e9e6f8;
+}
+.footer-first-paragraph {
+  font-family: var(--font-family);
+  font-weight: 800;
+  font-size: 14px;
+  margin-bottom: 16px;
+  line-height: 100%;
+  letter-spacing: 0.05em;
+  text-align: center;
+  color: #1a1a27;
+}
+.footer-second-paragraph {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 16px;
+  margin: 16px;
+  line-height: 150%;
+  text-align: center;
+  color: #484456;
+}
+.footer-last-paragraph {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+}
+.footer-last-paragraph p {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  text-align: center;
+  color: #5d6478;
+}
