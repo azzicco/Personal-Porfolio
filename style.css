@@ -334,3 +334,126 @@ body {
   text-align: center;
   color: #5d6478;
 }
+.about-me {
+  padding: 0 0 8px;
+  margin: 48px 60px 52px 60px;
+  height: 83px;
+}
+.about-me-headline {
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 32px;
+  margin-bottom: 7px;
+  line-height: 120%;
+  letter-spacing: -0.02em;
+  color: #1a1a27;
+}
+.about-me-paragraph {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 160%;
+  color: #484456;
+}
+.about-hero {
+  display: flex;
+  margin: 0 60px;
+  gap: 24px;
+}
+.detailed-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid #e9e6f8;
+  border-radius: 12px;
+  padding: 24px;
+  /* width: 765px; */
+  height: 245px;
+  box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.05);
+  background: #fff;
+}
+.about-image img {
+  width: 160px;
+  height: 160px;
+  object-fit: cover;
+  object-position: center top;
+}
+.about-content {
+  margin: 24px;
+}
+.about-content h1 {
+  font-family: var(--font-family);
+  font-weight: 700;
+  margin-bottom: 4.19px;
+  font-size: 24px;
+  line-height: 130%;
+  color: #4a00e0;
+}
+.about-content h2 {
+  font-family: var(--font-family);
+  font-weight: 600;
+  font-size: 14px;
+  margin-bottom: 4.69px;
+  line-height: 100%;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #575e72;
+}
+.about-content p {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 16px;
+  width: 531px;
+  height: 156px;
+  line-height: 163%;
+  color: #484456;
+}
+.about-interests {
+  border: 1px solid #e3e0f2;
+  border-radius: 12px;
+  padding: 23px 24px 110px;
+  height: 245px;
+  box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.02);
+  background: #f5f2ff;
+}
+.about-interests h1 {
+  display: flex;
+  align-items: center;
+  font-family: var(--font-family);
+  font-weight: 600;
+  font-size: 18px;
+  white-space: nowrap;
+  margin-right: 140.68px;
+  line-height: 140%;
+  color: #1a1a27;
+}
+.about-interests h1::before {
+  content: url(./assets/heart.svg);
+  margin-right: 3.83px;
+  height: 20px;
+}
+.about-interests div {
+  display: flex;
+  gap: 8.26px;
+  margin: 15.69px 24px 0 0;
+  list-style: none;
+  flex-wrap: wrap;
+  height: 68px;
+}
+.about-interests > div > li {
+  text-align: center;
+  font-family: var(--font-family);
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 100%;
+  letter-spacing: 0.05em;
+  color: #5d6478;
+  border-radius: 9999px;
+  padding: 8px 16px;
+  width: 86px;
+  height: 30px;
+  background: #dbe2fa;
+}
+.about-interests div:last-child {
+  flex-basis: 100%;
+}
