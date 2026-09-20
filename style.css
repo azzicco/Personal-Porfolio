@@ -738,3 +738,210 @@ hr {
   text-align: center;
   color: #6336fa;
 }
+@media (max-width: 767px) {
+  * {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  }
+
+  .index-header {
+    width: 100%;
+  }
+  .index-nav {
+    width: 100%;
+  }
+  .index-button {
+    display: none;
+  }
+  .nav-links {
+    display: none;
+    position: absolute;
+    top: 63px;
+    right: 12px;
+    flex-direction: column;
+    gap: 16px;
+    padding: 16px 24px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    width: 180px;
+  }
+  .nav-links.active {
+    display: flex;
+    flex-direction: column;
+  }
+  .menu-button {
+    display: block;
+  }
+  .hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 12px;
+    margin: 32px 12px;
+    height: 422px;
+  }
+  .hero-image img {
+    width: 128px;
+    height: 128px;
+  }
+  .hero-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* width: 100%; */
+    text-align: center;
+  }
+  .hero-content h1 {
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 26px;
+    margin-bottom: 15.19px;
+    line-height: 120%;
+    text-align: center;
+    color: #1a1a27;
+  }
+  .hero-content h2 {
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 140%;
+    text-align: center;
+    color: #4a00e0;
+  }
+  .hero-content p {
+    padding: 8px 4px 0;
+    width: 334px;
+    height: 80px;
+    text-align: center;
+  }
+  .mening-ishlarim-button {
+    display: block;
+    width: 162px;
+    margin: 0 auto;
+  }
+  .skills-section {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    height: auto;
+    margin: 32px 12px 18px;
+  }
+  .skills-card {
+    border-radius: 12px;
+    padding: 16px;
+    height: 114px;
+  }
+  .skills-card ul {
+    justify-content: center;
+  }
+  .counter-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #e9e6f8;
+    border-radius: 12px;
+    padding: 16px;
+
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+    background: #f5f2ff;
+  }
+  .counter-card h4 {
+    border: none;
+    text-align: center;
+    margin-bottom: 16px;
+  }
+  .counter-part {
+    border-radius: 12px;
+    padding: 24px 32px;
+    width: 100%;
+    height: 128px;
+    /* max-width: 200px; */
+    margin: 16px 82px;
+    background: #fff;
+  }
+  .plus-minus {
+    border-radius: 6px;
+    width: 29px;
+    height: 32px;
+  }
+  .button-qaytarish {
+    border-radius: 6px;
+    padding: 7px 12px 8px;
+    width: 98px;
+    height: 32px;
+  }
+  .index-footer {
+    padding: 16px 12px;
+    height: auto;
+    background: #4a00e0;
+  }
+  .footer-first-paragraph,
+  .footer-second-paragraph {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 14px;
+    white-space: nowrap;
+    line-height: 143%;
+    text-align: center;
+    color: #fff;
+  }
+  .footer-last-paragraph p {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 133%;
+    text-align: center;
+    color: #cabeff;
+  }
+
+  .about-hero {
+    display: flex;
+    flex-direction: column;
+  }
+  .detailed-info {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+  }
+  .about-image img {
+    width: 200px;
+    height: 200px;
+  }
+  .about-content {
+    text-align: center;
+  }
+  .about-interests {
+    height: 140px;
+  }
+  .about-skills {
+    display: flex;
+    flex-direction: column;
+  }
+  .contacts-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .connect-with-me {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: auto;
+    width: 100%;
+  }
+  .software-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .contacts-article {
+    height: auto;
+    margin: 32px 20px;
+  }
+}
