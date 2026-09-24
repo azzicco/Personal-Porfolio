@@ -835,9 +835,18 @@ hr {
     border-radius: 12px;
     padding: 16px;
     height: 114px;
-  }
-  .skills-card ul {
+    display: flex;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
+  }
+  .skills-card > ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: auto;
   }
   .counter-card {
     display: flex;
@@ -899,6 +908,12 @@ hr {
     text-align: center;
     color: #cabeff;
   }
+  .about-me-headline {
+    font-size: 20px;
+  }
+  .about-me-paragraph {
+    font-size: 16px;
+  }
 
   .about-hero {
     display: flex;
@@ -910,18 +925,101 @@ hr {
     height: auto;
   }
   .about-image img {
-    width: 200px;
-    height: 200px;
+    width: 150px;
+    height: 150px;
   }
   .about-content {
     text-align: center;
+    width: 100%;
+  }
+  .about-content p {
+    font-size: 10px;
+    width: 100%;
+    text-align: justify;
+    overflow-wrap: break-word;
   }
   .about-interests {
-    height: 140px;
+    height: auto;
   }
   .about-skills {
     display: flex;
     flex-direction: column;
+  }
+  .symbol-counter-card {
+    height: auto;
+  }
+  .contacts-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    margin: 32px 12px;
+    width: auto;
+  }
+  .input-info {
+    width: 100%;
+    height: auto;
+    padding: 24px 16px 40px;
+  }
+  .input-container {
+    width: 100%;
+  }
+  .enter-info {
+    width: 100%;
+  }
+  .enter-info input {
+    width: 100%;
+    max-width: 100%;
+  }
+  .enter-message input {
+    width: 100%;
+    max-width: 100%;
+  }
+  .connect-with-me {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: auto;
+  }
+  .software-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .contacts-article {
+    height: auto;
+    margin: 32px 20px;
+  }
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+  .skills-section {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+  }
+  .hero-content p {
+    width: auto;
+  }
+  .about-content {
+    height: auto;
+  }
+  .about-content p {
+    width: auto;
+    font-size: 14px;
+  }
+  .about-hero {
+    display: flex;
+    flex-direction: column;
+  }
+  .about-skills {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+  }
+  .contacts-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
   .contacts-info {
     display: flex;
