@@ -627,7 +627,8 @@ hr {
   border: 1px solid rgba(0, 0, 0, 0);
   border-radius: 12px;
   padding: 100px 24px;
-  width: 282px;
+  margin-right: 72px;
+  width: 100%;
   height: 460px;
   box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.05);
   background: #fff;
@@ -908,6 +909,9 @@ hr {
     text-align: center;
     color: #cabeff;
   }
+  .about-me {
+    text-align: center;
+  }
   .about-me-headline {
     font-size: 20px;
   }
@@ -918,6 +922,7 @@ hr {
   .about-hero {
     display: flex;
     flex-direction: column;
+    margin: 0 12px;
   }
   .detailed-info {
     display: flex;
@@ -944,6 +949,7 @@ hr {
   .about-skills {
     display: flex;
     flex-direction: column;
+    margin: 24px 12px;
   }
   .symbol-counter-card {
     height: auto;
@@ -980,6 +986,7 @@ hr {
     flex-direction: column;
     justify-content: center;
     height: auto;
+    margin: 24px 12px;
   }
   .software-container {
     display: grid;
@@ -987,7 +994,7 @@ hr {
   }
   .contacts-article {
     height: auto;
-    margin: 32px 20px;
+    margin: 24px 12px;
   }
 }
 @media (min-width: 768px) and (max-width: 1024px) {
